@@ -4,7 +4,7 @@
 - [Ian Cordibello Desponds](https://github.com/iancdesponds)
 - [Luigi Orlandi Quinze](https://github.com/guizin-15)
 
-## Cubo 3D com Pygame
+## [Cubo 3D com Pygame](https://github.com/iancdesponds/algebra-linear-cubo-3d)
 Neste projeto, implementamos a projeção de um cubo em 3D para uma tela 2D usando o algoritmo da pinhole camera. O objetivo é criar uma projeção em tempo real de um cubo em wireframe que pode girar em todas as direções.
 
 ## Processo de Criação
