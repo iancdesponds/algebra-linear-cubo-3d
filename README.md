@@ -55,10 +55,25 @@ $$
 
 $$
 Onde:\\
+$$
+
+$$
 x = -pos_x\text{ + (pos-mouse[0]-300)//2} \\
+$$
+
+$$
 y = -pos_y\text{ + (pos-mouse[1]-300)//2} \\
+$$
+
+$$
 z = 100 \text{ → distância da câmera ao centro do cubo}\\
+$$
+
+$$
 pos_x = \text{movimento que o usuário fez com as teclas A e D} \\
+$$
+
+$$
 pos_y = \text{movimento que o usuário fez com as teclas ↑ e ↓} \\
 $$
 
@@ -86,6 +101,7 @@ z_o \\
 1 \\
 \end{bmatrix}
 $$
+
 $$
 Onde:\\
 \text{$d$ é a distância da câmera ao centro do cubo.}
@@ -94,7 +110,10 @@ $$
 Portanto, para encontrar os valores de x e y na tela 2D, dividimos x_p e y_p por w_p.
 
 $$
-x = \frac{x_p w_p}{w_p} \\
+x = \frac{x_p w_p}{w_p}
+$$
+
+$$
 y = \frac{y_p w_p}{w_p}
 $$
 
@@ -107,10 +126,25 @@ T_{xy} = \begin{bmatrix}
 0 & 1 & y \\
 0 & 0 & 1\\
 \end{bmatrix}\\
+$$
+
+$$
 Onde:\\
+$$
+
+$$
 x = \text{largura da tela} // 2 + pos_x\\
+$$
+
+$$
 y = \text{altura da tela} // 2 + pos_y\\
+$$
+
+$$
 pos_x = \text{movimento que o usuário fez com as teclas A e D} \\
+$$
+
+$$
 pos_y = \text{movimento que o usuário fez com as teclas ↑ e ↓} \\
 $$
 
